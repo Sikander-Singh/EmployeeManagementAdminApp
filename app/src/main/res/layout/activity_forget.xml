@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activties.ForgetActivity">
+
+    <TextView
+        android:id="@+id/forgetpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORGET PASSWORD ?"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="#0B69D8"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_below="@id/forgetpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint=" Enter Your Email"/>
+
+    <Button
+        android:id="@+id/don"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request"
+        android:textColor="#F7F9FC"
+        android:backgroundTint="#0B69D8"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/mail"/>
+
+</RelativeLayout>

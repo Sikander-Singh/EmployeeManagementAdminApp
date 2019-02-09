@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">>
+    <item
+        android:id="@+id/action_weekly"
+        android:orderInCategory="100"
+        android:title="Weekly"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_monthly"
+        android:orderInCategory="100"
+        android:title="Monthly"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_image"
+        android:orderInCategory="100"
+        android:title="Show attendence with Image"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/updateTimeCard"
+        android:title="@string/updateEmp"
+        app:showAsAction="always"
+        />
+
+</menu>

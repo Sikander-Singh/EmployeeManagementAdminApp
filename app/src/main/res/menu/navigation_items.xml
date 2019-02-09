@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/overviewTab"
+        android:title="@string/overview"
+        android:icon="@drawable/overview"
+        />
+    <item
+        android:id="@+id/timeTab"
+        android:title="@string/time_sheet"
+        android:icon="@drawable/time_sheet"
+        />
+
+    <item
+        android:id="@+id/profileTab"
+        android:title="@string/profile"
+        android:icon="@drawable/profile"
+        />
+
+</menu>

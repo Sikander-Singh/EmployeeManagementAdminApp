@@ -1,0 +1,4 @@
+#Thu Aug 02 11:19:33 EDT 2018
+base.0=/Users/mangurkaur/Desktop/admin/EmployeeAttendancePro/app/build/intermediates/transforms/dexMerger/debug/20
+path.0=classes.dex
+renamed.0=classes.dex

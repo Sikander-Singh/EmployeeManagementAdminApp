@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:com.github.jakob-grabner="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:padding="20dp"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/monthLayout"
+       >
+       <TextView
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:background="@drawable/circle_shape"
+           android:text="Last Month"
+           android:gravity="center"
+           android:textSize="11dp"
+           android:layout_margin="5dp"
+           android:textColor="@color/mdtp_white"
+           android:id="@+id/lastMonth"
+           />
+       <TextView
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:background="@drawable/circle_shape"
+           android:text="This Month"
+           android:gravity="center"
+           android:textSize="11dp"
+           android:layout_margin="5dp"
+           android:textColor="@color/mdtp_white"
+           android:id="@+id/thisMonth"
+
+           />
+       <TextView
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:background="@drawable/circle_shape"
+           android:text="Last Week"
+           android:gravity="center"
+           android:textSize="11dp"
+           android:layout_margin="5dp"
+           android:textColor="@color/mdtp_white"
+           android:id="@+id/lastWeek"
+
+           />
+       <TextView
+
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:background="@drawable/circle_shape"
+           android:text="This Week"
+           android:gravity="center"
+           android:textSize="11dp"
+           android:layout_margin="5dp"
+           android:textColor="@color/mdtp_white"
+           android:id="@+id/thisWeek"
+           />
+   </LinearLayout>
+
+    <com.app.progresviews.ProgressWheel
+        android:id="@+id/wheelprogress"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        app:barWidth="17dp"
+        app:marginBtwText= "15dp"
+        app:countText="40"
+        app:countTextColor="@android:color/black"
+        app:defTextColor="@android:color/black"
+        app:progressColor="#64b324"
+        app:defTextSize="10sp"
+        app:countTextSize="20sp"
+        app:percentage="0"/>
+
+</RelativeLayout>
